@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to the Czarkwiani Lab"
+title: "Welcome to Czarkwiani Lab"
 author_profile: true
 redirect_from: 
   - /about/
