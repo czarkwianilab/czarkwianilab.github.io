@@ -6,12 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<style>
-.page__title {
-  text-align: center;
-}
-</style>
-
 <div class="full">
   <p align="center">
     <img src="{{ site.url }}{{ site.baseurl }}/images/homepage/banner.png"
