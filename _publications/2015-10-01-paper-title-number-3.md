@@ -8,10 +8,10 @@ date: 2025-12-05
 venue: 'Science Immunology'
 #slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
 #paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Anna Czarkwiani et al. ,Molecular basis for de novo thymus regeneration in a vertebrate, the axolotl.Sci. Immunol.10,eadw9903(2025).DOI:10.1126/sciimmunol.adw9903.'
+citation: 'Czarkwiani, A, Lobo, M, Bolanos Castro, L et al., Molecular basis for de novo thymus regeneration in a vertebrate, the axolotl. Sci. Immunol.10,eadw9903(2025).DOI:10.1126/sciimmunol.adw9903.'
 ---
 <div class="full">
-  <p align="center">
+  <p align="left">
     <img src="{{ site.url }}{{ site.baseurl }}/images/sciimmunol.2025.10.issue-114.largecover.jpg"
          alt="axolotl on the cover of science immunology"
          style="max-width: 1200px; width: 30%; height: auto;">
