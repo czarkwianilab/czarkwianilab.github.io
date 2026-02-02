@@ -5,13 +5,6 @@ permalink: /team/
 author_profile: true
 ---
 
----
-layout: archive
-title: "Team"
-permalink: /team/
-author_profile: true
----
-
 <style>
 .team-member {
   display: flex;
@@ -42,7 +35,7 @@ author_profile: true
 }
 </style>
 
-## Our Team
+<!-- ## Our Team -->
 
 {% for member in site.data.team %}
 <div class="team-member">
@@ -56,16 +49,3 @@ author_profile: true
 </div>
 {% endfor %}
 
-## Our Team
-
-{% for member in site.data.team %}
-<div class="team-member">
-  <div class="team-info">
-    **{{ member.name }}** – {{ member.position }}  
-    {{ member.description }}
-  </div>
-  <div class="team-photo">
-    ![{{ member.name }}]({{ member.image }})
-  </div>
-</div>
-{% endfor %}
