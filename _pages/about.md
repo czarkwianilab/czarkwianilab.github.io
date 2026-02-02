@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <div class="full">
-  <p align="center">
+  <p align="left">
     <img src="{{ site.url }}{{ site.baseurl }}/images/homepage/banner.png"
          alt="fluorescent images of axolotls and brittle stars"
          style="max-width: 1200px; width: 80%; height: auto;">
