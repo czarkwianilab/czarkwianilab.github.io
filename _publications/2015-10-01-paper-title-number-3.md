@@ -2,7 +2,7 @@
 title: "Molecular basis for de novo thymus regeneration in a vertebrate, the axolotl"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: 'https://www.science.org/doi/10.1126/sciimmunol.adw9903'
 #excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2025-12-05
 venue: 'Science Immunology'
