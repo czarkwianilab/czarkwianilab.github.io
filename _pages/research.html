@@ -1,0 +1,48 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+<style>
+.research-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.5em;
+}
+
+.research-info {
+  flex: 1;
+  padding-right: 1em;
+}
+
+.research-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.research-description {
+  font-size: 1em;
+}
+
+.research-image img {
+  width: 180px;
+  height: auto;
+}
+</style>
+
+## Research Projects
+
+{% for project in site.data.research %}
+<div class="research-item">
+  <div class="research-info">
+    <div class="research-title">{{ project.title }}</div>
+    <div class="research-description">{{ project.description }}</div>
+  </div>
+  <div class="research-image">
+    ![{{ project.title }}]({{ project.image }})
+  </div>
+</div>
+{% endfor %}
