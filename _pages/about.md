@@ -17,7 +17,7 @@ redirect_from:
 .home-text {
   max-width: 800px;
   margin: 2em auto 0 auto;
-  text-align: left;
+  text-align: center;
 }
 </style>
 
