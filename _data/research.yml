@@ -2,6 +2,6 @@
    description: Using biomaterial approaches we will study the inorganic phase of the otoconia in the axolotl. SEM and microCT imaging will be used to characterise the appearance of otoconial crystals. Spectroscopy techniques such as FT-IR will be used to determine their biophysical and biochemical properties such as calcium carbonate polymorph state. 
    image: /images/1yo_utricle_07_contrast_gray.png
 
-# - title: Project B
-#   description: Short description of Project B. Explain goals and methods.
-#   image: images/project_b.jpg
+ - title: Otoconia biomineralization gene regulatory network
+   description: Using a combination of state-of-the-art omics approaches (spatial transcriptomics, multiomics and proteomics) we will build a scaffold of a gene regulatory network driving the formation and regeneration of otoconia in the axolotl. We will then use cis-regulatory element predictions, functional perturbation experiments and spatio-temporal gene expression validation to begin untangling the connections between the identified nodes. Our long-term goal is to conduct cross-species comparison studies to study evolution of calcium carbonate biomineralization in deuterostomes.
+   image: images/build_GRN.png
