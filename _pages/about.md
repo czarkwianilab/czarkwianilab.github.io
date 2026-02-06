@@ -47,6 +47,10 @@ redirect_from:
        style="height:60px; width:auto;">
 </p>
 
+
+
+
+
 <div class="home-text">
   <p>
     Our funding
@@ -56,7 +60,7 @@ redirect_from:
 <p style="text-align:center; display:flex; justify-content:center; gap:2em;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logo_erc.png"
        alt="erc logo"
-       style="height:60px; width:auto;">
+       style="height:100px; width:auto;">
 
   <img src="{{ site.url }}{{ site.baseurl }}/images/mv_logo.jpg"
        alt="mv logo"
