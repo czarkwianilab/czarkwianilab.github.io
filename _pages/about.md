@@ -47,67 +47,49 @@ redirect_from:
        style="height:60px; width:auto;">
 </p>
 
-<div class="lab-slideshow">
-  <div class="slides fade">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/axolotl_1.png" alt="Axolotl 1">
-  </div>
 
-  <div class="slides fade">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/axolotl_2.png" alt="Axolotl 2">
-  </div>
 
-  <div class="slides fade">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/axolotl_3.png" alt="Axolotl 3">
-  </div>
-
-  <div class="slides fade">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/axolotl_4.png" alt="Axolotl 4">
-  </div>
+<!-- <div style="height:200px;"></div> -->
+<div class="lab-slider">
+  <figure>
+    <img src="{{ site.baseurl }}/images/axolotl_1.png">
+    <img src="{{ site.baseurl }}/images/axolotl_2.png">
+    <img src="{{ site.baseurl }}/images/axolotl_3.png">
+    <img src="{{ site.baseurl }}/images/axolotl_4.png">
+  </figure>
 </div>
 
 <style>
-.lab-slideshow {
+.lab-slider {
+  overflow: hidden;
   max-width: 1000px;
   margin: 2rem auto;
+}
+
+.lab-slider figure {
   position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
 }
 
-.slides {
-  display: none;
-}
-
-.slides img {
-  width: 100%;
+.lab-slider img {
+  width: 33.333%;
+  float: left;
   border-radius: 10px;
 }
 
-.fade {
-  animation: fadeEffect 1.5s;
-}
-
-@keyframes fadeEffect {
-  from {opacity: .4}
-  to {opacity: 1}
+@keyframes slider {
+  0% { left: 0; }
+  30% { left: 0; }
+  33% { left: -100%; }
+  63% { left: -100%; }
+  66% { left: -200%; }
+  96% { left: -200%; }
+  100% { left: 0; }
 }
 </style>
-
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let slides = document.getElementsByClassName("slides");
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1 }
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 4 seconds
-}
-</script>
-
-<!-- <div style="height:200px;"></div> -->
 
 
 <div class="home-text">
