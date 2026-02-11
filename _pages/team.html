@@ -44,7 +44,7 @@ author_profile: true
     <div class="bio">{{ member.description }}</div>
   </div>
   <div class="team-photo">
-    ![{{ member.name }}]({{ member.image }})
+    <img src="{{ site.baseurl }}/images/{{ member.image }}" alt="{{ member.name }}" class="team-photo">
   </div>
 </div>
 {% endfor %}
