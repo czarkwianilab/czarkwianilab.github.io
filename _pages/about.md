@@ -44,7 +44,7 @@ redirect_from:
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px;
   opacity: 0;
   animation: fadeSlider 16s infinite;
