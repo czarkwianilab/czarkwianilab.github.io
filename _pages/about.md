@@ -36,7 +36,7 @@ redirect_from:
 .lab-fade-slider {
   position: relative;
   max-width: 1000px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   height: 600px; /* adjust if needed */
 }
 
